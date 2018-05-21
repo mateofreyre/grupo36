@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Aventon</title>	<!--TEXTO EN PESTAÑA-->
+	<link rel="stylesheet" type="text/css" href="css/login.css">	<!--LINK A LA HOJA DE ESTILO-->
+
+</head>
+<body>
+
+			<div class="body">
+			    <section>
+			        <form action="index.php?action=loguearUsuario" class="login" method="POST">
+			            <h2>Iniciar Sesion</h2>
+			            <input type="text" id="mail" name="mail" class="login-input" placeholder="Ingrese su Usuario" required/>
+			            <input type="password" id="password" name="password" class="login-input" placeholder="Ingrese su Contrase&ntilde;a" required/>
+			            <input type="submit" class="login-button" value="Login">
+			            <p>No estas registrado? <a href="./?action=agregar_usuario"><span>Registrate ya!</span></a></p>
+			        </form>
+			    </section>
+			</div>
+				<footer>	<!--FOOTER-->
+					<p>Grupo 27 - Proyecto de Software - Facultad de Informatica UNLP</p>
+		<!-- 		  	<p>Email de contacto: <a href="mailto:cdlv@gmail.com"> cdlv@gmail.com</a></p>-->
+				</footer>
+</body>
+</html>
