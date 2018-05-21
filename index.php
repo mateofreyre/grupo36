@@ -20,7 +20,7 @@ require_once('model/User.php');
 require_once('view/TwigView.php');
 require_once('view/Home.php');
 require_once('view/Login.php');
-require_once('view/agregar_usuario.php');
+//require_once('view/agregar_usuario.php');
 
 if(isset($_GET["action"])) {
 
