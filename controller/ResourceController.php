@@ -82,7 +82,12 @@ class ResourceController {
             $model = UserRepository :: getInstance()-> modificar_datos();
             $view = new Perfil();
             $view -> show();
+        }
+        catch(Exception $e){
+            $mensaje = "no se pudo realizar la modificacion de datos";
+        }
     }
 }
 
 ?>
+    
