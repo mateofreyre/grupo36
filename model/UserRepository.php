@@ -98,6 +98,7 @@ class UserRepository extends PDORepository{
             echo "<script>";
             echo "alert('$mensaje');";
             echo "</script>";
+        }
     }
 }
 
